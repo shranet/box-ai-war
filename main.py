@@ -48,7 +48,7 @@ class App:
                 self.player1.left()
 
     def on_loop(self):
-        pass
+        B2_WORLD.Step(1 / 60.0, 6, 3)
 
     def on_render(self):
         for tile in self.tiles:
